@@ -1,0 +1,117 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "DiamondHub - Premium ⭐ | Murderers VS Sheriffs", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+ 
+local Tab = Window:MakeTab({
+	Name = "Hitbox-SilentAim",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+local Tab2 = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+local Tab3 = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+Tab:AddLabel("Hitbox & SilentAim")
+Tab:AddButton({
+	Name = "HitBox",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/emQqeWSL"))();
+         print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Silent Aim (Hit the blue square to kill the opponent)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Dw7YYZxY"))();
+         print("button pressed")
+  	end    
+})
+Tab:AddLabel("SUPPORT ⬇️")
+Tab:AddButton({
+	Name = "https://discord.gg/pEfNGEANR5              (Click To Coppy)",
+	Callback = function()
+      	setclipboard('https://discord.gg/pEfNGEANR5')
+	end
+})
+Tab:AddButton({
+	Name = "https://discord.gg/PMCZs7ZMvR             (Click To Coppy)",
+	Callback = function()
+      	setclipboard('https://discord.gg/PMCZs7ZMvR')
+	end
+})
+local Section = Tab:AddSection({
+	Name = "Made by: TheComplexJason & Malikxdpro9"
+})
+ 
+Tab2:AddLabel("FLY & ESP Players")
+Tab2:AddButton({
+	Name = "FLY",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/12PQEny3"))();
+         print("button pressed")
+  	end    
+})
+Tab2:AddButton({
+	Name = "ESP Players",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script"))();
+         print("button pressed")
+  	end    
+})
+ 
+ OrionLib:Init()
+ 
+Tab3:AddLabel("VERSION")
+Tab3:AddButton({
+	Name = "VERSION: 1.28",
+	Callback = function()
+  	end    
+})
+ 
+Tab3:AddLabel("DEVLOPERS")
+Tab3:AddButton({
+	Name = "#1 TheComplexJason                                (Click To Coppy)",
+	Callback = function()
+      	setclipboard('TheComplexJason')
+	end
+})
+Tab3:AddButton({
+	Name = "#2 Malikxdpro9                                         (Click To Coppy)",
+	Callback = function()
+      	setclipboard('Malikxdpro9')
+	end
+})
+ 
+Tab3:AddLabel("SUPPORT ⬇️")
+Tab3:AddButton({
+	Name = "https://discord.gg/pEfNGEANR5              (Click To Coppy)",
+	Callback = function()
+      	setclipboard('https://discord.gg/pEfNGEANR5')
+	end
+})
+Tab3:AddButton({
+	Name = "https://discord.gg/PMCZs7ZMvR             (Click To Coppy)",
+	Callback = function()
+      	setclipboard('https://discord.gg/PMCZs7ZMvR')
+	end
+})
+ 
+OrionLib:MakeNotification({
+	Name = "DiamondHub",
+	Content = "Script Actived Now ✅",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+OrionLib:MakeNotification({
+	Name = "DiamondHub",
+	Content = "Copied link to the discord server!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+setclipboard('https://discord.gg/pEfNGEANR5')
+OrionLib:Init() -- DiamondHub TEAM --
